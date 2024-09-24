@@ -1,7 +1,8 @@
 body {
-    background-color:pink
+    background-color:rgb(136, 255, 215);
+    color: rgb(87, 20, 99);
 }
 h1 {
     text-align:center; 
-    color: red;
+    color: rgb(0, 35, 142);
 }
