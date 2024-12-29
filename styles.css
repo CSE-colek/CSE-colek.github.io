@@ -11,6 +11,13 @@ h1 {
     border-radius: 10%;
     border-color: white;
 }
+.about {
+    max-width: 600px; 
+    margin: 0 auto;  
+    padding: 10px;    
+    text-align: center; 
+    border: 1px solid #ffffff;
+}
 .about img {
     width: 200px;
     height: 200px;
@@ -34,6 +41,11 @@ h1 {
     padding: 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    border: 1px solid #ffffff; 
+    border-radius: 5px;       
+    padding: 10px;            
+    margin: 10px;             
+    background-color: rgba(255, 255, 255, 0.1); 
 }
 
 .project h2 {

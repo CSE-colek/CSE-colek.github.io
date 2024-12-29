@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+}
+
+.display {
+    width: 100%;
+    height: 50px;
+    font-size: 32px;
+    text-align: right;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.btn {
+    font-size: 24px;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #e0e0e0;
+}
+
+.operator {
+    background-color: #ff8c00;
+    color: white;
+}
+
+.operator:hover {
+    background-color: #e77c00;
+}
+
+.clear {
+    background-color: #f44336;
+    color: white;
+}
+
+.clear:hover {
+    background-color: #d32f2f;
+}
+
+.operator[data-value='='] {
+    background-color: #4caf50;
+    color: white;
+}
+
+.operator[data-value='=']:hover {
+    background-color: #388e3c;
+}
