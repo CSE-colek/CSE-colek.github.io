@@ -10,7 +10,6 @@ h1 {
     color: rgb(255, 255, 255);
     border-radius: 10%;
     border-color: white;
-    margin-bottom: ;
 }
 .about {
     max-width: 600px; 
@@ -49,7 +48,7 @@ h1 {
 }
 
 .project img {
-    width: 100px; /* Adjust the width as needed */
+    width: 100px;
     height: auto;
     border-radius: 5px;
 }
